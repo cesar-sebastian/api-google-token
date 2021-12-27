@@ -2,7 +2,12 @@
 
 ## Configuration
 
-* Set file .env and put credentials on credentials folder
+* Create file .env and put credentials on credentials folder p.e:
+
+`NAME=credentials/my-credentials.json`
+
+* Create folder `credentials/` and put into json file credentials
+
 * Adjust CORS domain on `main.py` file
 
 ## Install
