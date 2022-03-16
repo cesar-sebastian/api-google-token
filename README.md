@@ -12,17 +12,22 @@
 
 ## Install
 
-* Activate environment
+* Setup project
 
-`. activate`
-
-* Generate App
-
-`pip install -r requirements.txt`
+``` bash
+pip install virtualenv
+python -m venv env
+source env/Scripts/activate
+pip install -r requirements.txt
+```
 
 * Run App
 
 `uvicorn main:app`
+
+* Document API
+
+`http://127.0.0.1:8000/docs`
 
 ## Uses
 
